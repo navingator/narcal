@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//69.10.156.234//NONSGML kigkonsult.se iCalcreator 2.18//
+X-WR-TIMEZONE:America/Toronto
+X-WR-CALNAME:Subscribed Calendar
+X-WR-CALDESC:one45 Calendar
+BEGIN:VEVENT
+UID:20170904T095338EDT-87865zgulj@69.10.156.234
+DTSTAMP:20170904T135338Z
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: PEARLS Small Group\nSession: 01. PEA
+ RLS Case 1.3a\nSession:  Chest Pain\nSession:  Cardiac Arrest\nSection: PE
+ ARLS Small Group:01. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest: CPR PEA
+ RLS John \nFacilitator(s): Janice John 
+DTSTART:20170814T080000
+DTEND:20170814T090000
+LOCATION:Building: Hofstra Northwell School of Medicine  Room: 213
+SUMMARY:CPR::Week 3: The Heart in Theory and Practice (the beat goes on)::P
+ EARLS Small Group:01. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest::PEARLS
+  Small Group:01. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest: CPR PEARLS 
+ John
+BEGIN:VALARM
+ACTION:display
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: PEARLS Small Group\nSession: 01. PEA
+ RLS Case 1.3a\nSession:  Chest Pain\nSession:  Cardiac Arrest\nSection: PE
+ ARLS Small Group:01. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest: CPR PEA
+ RLS John \nFacilitator(s): Janice John 
+TRIGGER:-PT1H0M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20170904T095338EDT-8797f1PAUU@69.10.156.234
+DTSTAMP:20170904T135338Z
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: PEARLS Small Group\nSession: 02. PEA
+ RLS Case 1.3b\nSession:  Chest Pain\nSession:  Ischemic Heart Disease\nSec
+ tion: PEARLS Small Group:02. PEARLS Case 1.3b: Chest Pain: Ischemic Heart 
+ Disease: CPR PEARLS John \nFacilitator(s): Janice John 
+DTSTART:20170814T090000
+DTEND:20170814T100000
+LOCATION:Building: Hofstra Northwell School of Medicine  Room: 213
+SUMMARY:CPR::Week 3: The Heart in Theory and Practice (the beat goes on)::P
+ EARLS Small Group:02. PEARLS Case 1.3b: Chest Pain: Ischemic Heart Disease
+ ::PEARLS Small Group:02. PEARLS Case 1.3b: Chest Pain: Ischemic Heart Dise
+ ase: CPR PEARLS John
+BEGIN:VALARM
+ACTION:display
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: PEARLS Small Group\nSession: 02. PEA
+ RLS Case 1.3b\nSession:  Chest Pain\nSession:  Ischemic Heart Disease\nSec
+ tion: PEARLS Small Group:02. PEARLS Case 1.3b: Chest Pain: Ischemic Heart 
+ Disease: CPR PEARLS John \nFacilitator(s): Janice John 
+TRIGGER:-PT1H0M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

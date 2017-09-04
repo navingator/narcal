@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//69.10.156.234//NONSGML kigkonsult.se iCalcreator 2.18//
+X-WR-TIMEZONE:America/Toronto
+X-WR-CALNAME:Subscribed Calendar
+X-WR-CALDESC:one45 Calendar
+BEGIN:VEVENT
+UID:20170904T095338EDT-87865zgulj@69.10.156.234
+DTSTAMP:20170904T135338Z
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: PEARLS Small Group\nSession: 01. PEA
+ RLS Case 1.3a\nSession:  Chest Pain\nSession:  Cardiac Arrest\nSection: PE
+ ARLS Small Group:01. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest: CPR PEA
+ RLS John \nFacilitator(s): Janice John 
+DTSTART:20170814T080000
+DTEND:20170814T090000
+LOCATION:Building: Hofstra Northwell School of Medicine  Room: 213
+SUMMARY:CPR::Week 3: The Heart in Theory and Practice (the beat goes on)::P
+ EARLS Small Group:01. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest::PEARLS
+  Small Group:01. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest: CPR PEARLS 
+ John
+BEGIN:VALARM
+ACTION:display
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: PEARLS Small Group\nSession: 01. PEA
+ RLS Case 1.3a\nSession:  Chest Pain\nSession:  Cardiac Arrest\nSection: PE
+ ARLS Small Group:01. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest: CPR PEA
+ RLS John \nFacilitator(s): Janice John 
+TRIGGER:-PT1H0M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20170904T095338EDT-8797f1PAUU@69.10.156.234
+DTSTAMP:20170904T135338Z
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: PEARLS Small Group\nSession: 02. PEA
+ RLS Case 1.3b\nSession:  Chest Pain\nSession:  Ischemic Heart Disease\nSec
+ tion: PEARLS Small Group:02. PEARLS Case 1.3b: Chest Pain: Ischemic Heart 
+ Disease: CPR PEARLS John \nFacilitator(s): Janice John 
+DTSTART:20170814T090000
+DTEND:20170814T100000
+LOCATION:Building: Hofstra Northwell School of Medicine  Room: 213
+SUMMARY:CPR::Week 3: The Heart in Theory and Practice (the beat goes on)::P
+ EARLS Small Group:02. PEARLS Case 1.3b: Chest Pain: Ischemic Heart Disease
+ ::PEARLS Small Group:02. PEARLS Case 1.3b: Chest Pain: Ischemic Heart Dise
+ ase: CPR PEARLS John
+BEGIN:VALARM
+ACTION:display
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: PEARLS Small Group\nSession: 02. PEA
+ RLS Case 1.3b\nSession:  Chest Pain\nSession:  Ischemic Heart Disease\nSec
+ tion: PEARLS Small Group:02. PEARLS Case 1.3b: Chest Pain: Ischemic Heart 
+ Disease: CPR PEARLS John \nFacilitator(s): Janice John 
+TRIGGER:-PT1H0M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20170904T095338EDT-8808uvuvEt@69.10.156.234
+DTSTAMP:20170904T135338Z
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: Large Group\nSession: 03. Cardiovasc
+ ular Physiology\nSection: Large Group:03. Cardiovascular Physiology: Full 
+ Class \nFacilitator(s): Maya Frankfurt 
+DTSTART:20170814T101000
+DTEND:20170814T110000
+LOCATION:Building: Hofstra Northwell School of Medicine  Room: 201
+SUMMARY:CPR::Week 3: The Heart in Theory and Practice (the beat goes on)::L
+ arge Group:03. Cardiovascular Physiology::Large Group:03. Cardiovascular P
+ hysiology: Full Class
+BEGIN:VALARM
+ACTION:display
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: Large Group\nSession: 03. Cardiovasc
+ ular Physiology\nSection: Large Group:03. Cardiovascular Physiology: Full 
+ Class \nFacilitator(s): Maya Frankfurt 
+TRIGGER:-PT1H0M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20170904T095338EDT-8818fhuaS2@69.10.156.234
+DTSTAMP:20170904T135338Z
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: Large Group\nSession: 04. Structure 
+ of the PNS III\nSection: Large Group:04. Structure of the PNS III: Full Cl
+ ass \nFacilitator(s): Zeinab Nassrallah 
+DTSTART:20170814T111000
+DTEND:20170814T120000
+LOCATION:Building: Hofstra Northwell School of Medicine  Room: 201
+SUMMARY:CPR::Week 3: The Heart in Theory and Practice (the beat goes on)::L
+ arge Group:04. Structure of the PNS III::Large Group:04. Structure of the 
+ PNS III: Full Class
+BEGIN:VALARM
+ACTION:display
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: Large Group\nSession: 04. Structure 
+ of the PNS III\nSection: Large Group:04. Structure of the PNS III: Full Cl
+ ass \nFacilitator(s): Zeinab Nassrallah 
+TRIGGER:-PT1H0M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20170904T095338EDT-8827Uf0haS@69.10.156.234
+DTSTAMP:20170904T135338Z
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: Large Group\nSession: 05. Medical Em
+ ergencies\nSection: Large Group:05. Medical Emergencies: 6 \nFacilitator(s
+ ): --- 
+DTSTART:20170814T130000
+DTEND:20170814T150000
+LOCATION:Building: Hofstra Northwell School of Medicine  Room: 225
+SUMMARY:CPR::Week 3: The Heart in Theory and Practice (the beat goes on)::L
+ arge Group:05. Medical Emergencies::Large Group:05. Medical Emergencies: 6
+BEGIN:VALARM
+ACTION:display
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: Large Group\nSession: 05. Medical Em
+ ergencies\nSection: Large Group:05. Medical Emergencies: 6 \nFacilitator(s
+ ): --- 
+TRIGGER:-PT1H0M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20170904T095338EDT-8837DWctEI@69.10.156.234
+DTSTAMP:20170904T135338Z
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: Simulation\nSession: 06. Medical Eme
+ rgencies Simulation\nSection: Simulation:06. Medical Emergencies Simulatio
+ n: CPR EMT 9 \nFacilitator(s): Michael Cassara 
+DTSTART:20170815T080000
+DTEND:20170815T120000
+LOCATION:Building: Center for Learning and Innovation  Room: CLI
+SUMMARY:CPR::Week 3: The Heart in Theory and Practice (the beat goes on)::S
+ imulation:06. Medical Emergencies Simulation::Simulation:06. Medical Emerg
+ encies Simulation: CPR EMT 9
+BEGIN:VALARM
+ACTION:display
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: Simulation\nSession: 06. Medical Eme
+ rgencies Simulation\nSection: Simulation:06. Medical Emergencies Simulatio
+ n: CPR EMT 9 \nFacilitator(s): Michael Cassara 
+TRIGGER:-PT1H0M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20170904T095338EDT-8846rRSDBo@69.10.156.234
+DTSTAMP:20170904T135338Z
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: EMT Unit Exam\nSession: 15. Unit 3 E
+ xam\nSection: EMT Unit Exam:15. Unit 3 Exam: Full Class \nFacilitator(s): 
+ William Rennie 
+DTSTART:20170815T120000
+DTEND:20170815T130000
+LOCATION:Building: Center for Learning and Innovation  Room: CLI
+SUMMARY:CPR::Week 3: The Heart in Theory and Practice (the beat goes on)::E
+ MT Unit Exam:15. Unit 3 Exam::EMT Unit Exam:15. Unit 3 Exam: Full Class
+BEGIN:VALARM
+ACTION:display
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: EMT Unit Exam\nSession: 15. Unit 3 E
+ xam\nSection: EMT Unit Exam:15. Unit 3 Exam: Full Class \nFacilitator(s): 
+ William Rennie 
+TRIGGER:-PT1H0M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20170904T095338EDT-8855vWjntG@69.10.156.234
+DTSTAMP:20170904T135338Z
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: PEARLS Small Group\nSession: 07. PEA
+ RLS Case 1.3a\nSession:  Chest Pain\nSession:  Cardiac Arrest\nSection: PE
+ ARLS Small Group:07. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest: CPR PEA
+ RLS John \nFacilitator(s): Janice John 
+DTSTART:20170816T080000
+DTEND:20170816T100000
+LOCATION:Building: Hofstra Northwell School of Medicine  Room: 213
+SUMMARY:CPR::Week 3: The Heart in Theory and Practice (the beat goes on)::P
+ EARLS Small Group:07. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest::PEARLS
+  Small Group:07. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest: CPR PEARLS 
+ John
+BEGIN:VALARM
+ACTION:display
+DESCRIPTION:Course: CPR\nSub-course: Week 3: The Heart in Theory and Practi
+ ce (the beat goes on)\nActivity type: PEARLS Small Group\nSession: 07. PEA
+ RLS Case 1.3a\nSession:  Chest Pain\nSession:  Cardiac Arrest\nSection: PE
+ ARLS Small Group:07. PEARLS Case 1.3a: Chest Pain: Cardiac Arrest: CPR PEA
+ RLS John \nFacilitator(s): Janice John 
+TRIGGER:-PT1H0M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

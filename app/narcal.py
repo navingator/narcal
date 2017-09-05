@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 """ Converts ics file to a more nicely formatted one"""
 from icalendar import Calendar
-import os
+import requests
 
 def cleanSummary(summary: str) -> str:
 	return summary.split('::')[-1]
@@ -17,13 +16,8 @@ def cleanCalendar(cal: Calendar):
 			component['summary'] = cleanSummary(component.get('summary'))
 			component['location'] = cleanLocation(component.get('location'))
 
-def writeIcs(cal: Calendar, filename: str):
-	os.makedirs(os.path.dirname(filename), exist_ok=True)
-	with open(filename, 'wb') as f:
-		f.write(cal.to_ical())
-
-# TODO replace with file retrieved from http request
-with open('./samples/source.ics', 'rb') as source_file:
-	cal = Calendar.from_ical(source_file.read())
+def getUpdatedIcs(source_link):
+	res = requests.get(source_link) # note that this will return an empty calendar if the link is invalid
+	cal = Calendar.from_ical(res.text)
 	cleanCalendar(cal)
-	writeIcs(cal,'./dist/sample/output.ics')
+	return cal.to_ical()

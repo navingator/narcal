@@ -1,3 +1,9 @@
 # Input/Output files
 sources.csv
 dist/
+
+# Compiled files
+__pycache__/
+
+# Environment files
+.env

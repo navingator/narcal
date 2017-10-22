@@ -1,5 +1,7 @@
 # Input/Output files
 sources.csv
+*.replacements.csv
+!sample.*.replacements.csv
 dist/
 
 # Compiled files

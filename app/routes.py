@@ -10,11 +10,11 @@ def getCalendar(username:str):
 	calendarUrl = ''
 	try:
 		calendarUrl = getCalendarUrl(username)
-	except KeyError:
+	except KeyError:                  # Username not found in dictionary
 		abort(404, "Username not found.")
-	except FileNotFoundError:
+	except FileNotFoundError:         # Could not find a file containing sources
 		abort(500, "Source file not found")
-	except (csv.Error, IndexError):
+	except (csv.Error, IndexError):   # The file containing the sources was incorrectly configured
 		abort(500, "Sources configured incorrectly. Contact the site admin for help.")
 	# Return the calendar for that username
 	try:

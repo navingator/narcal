@@ -1,11 +1,11 @@
 """ Converts ics file to a more nicely formatted one"""
 from icalendar import Calendar
-from sources import getLocationReplacements
+from sources import get_location_replacements
 from typing import List, Tuple
 import requests
 import re
 
-def shortenSummary(summary: str) -> str:
+def shorten_summary(summary: str) -> str:
 	"""Shorten the summary by removing unnecessary first element and numbering"""
 	split_summary = summary.split(':')
 
@@ -30,15 +30,15 @@ def shortenSummary(summary: str) -> str:
 
 	return new_summary
 
-def cleanSummary(summary: str) -> str:
+def clean_summary(summary: str) -> str:
 	"""Cleans the summary by removing unhelpful components"""
 
 	# Remove larger useless chunks by taking the last piece split by '::'
 	new_summary = summary.split('::')[-1] # will include just the last section or everything if it doesn't find '::'
 
-	return shortenSummary(new_summary)
+	return shorten_summary(new_summary)
 
-def cleanLocation(location: str, replacements: List[Tuple[str,str]]) -> str:
+def clean_location(location: str, replacements: List[Tuple[str,str]]) -> str:
 	"""Clean the location by removing the building and room specifications and handling replacements
 
 	Keyword arguments:
@@ -53,17 +53,17 @@ def cleanLocation(location: str, replacements: List[Tuple[str,str]]) -> str:
 		new_location = new_location.replace(pair[0], pair[1])
 	return new_location
 
-def cleanCalendar(cal: Calendar):
+def clean_calendar(cal: Calendar):
 	"""Clean the calendar by cleaning each summary and location"""
-	location_replacements = getLocationReplacements() # get the location replacements from file
+	location_replacements = get_location_replacements() # get the location replacements from file
 	for component in cal.walk():
 		if component.name == "VEVENT":
-			component['summary'] = cleanSummary(component.get('summary'))
-			component['location'] = cleanLocation(component.get('location'), location_replacements)
+			component['summary'] = clean_summary(component.get('summary'))
+			component['location'] = clean_location(component.get('location'), location_replacements)
 
-def getUpdatedIcs(source_link):
+def get_updated_ics(source_link):
 	"""Entry point that returns a cleaned calendar file"""
 	res = requests.get(source_link) # note that this will return an empty calendar if the link is invalid
 	cal = Calendar.from_ical(res.text)
-	cleanCalendar(cal)
+	clean_calendar(cal)
 	return cal.to_ical()

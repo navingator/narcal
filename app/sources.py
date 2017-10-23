@@ -4,7 +4,7 @@ import os
 from typing import List, Tuple
 
 # Get source username from the source dictionary
-def getCalendarUrl(username: str) -> str:
+def get_calendar_url(username: str) -> str:
 	"""Gets a calendar URL from a source csv file"""
 	calendar_sources = {}
 	with open(os.path.join(os.path.dirname(__file__), '../config/sources.csv'), 'r') as infile:
@@ -14,7 +14,7 @@ def getCalendarUrl(username: str) -> str:
 	return calendar_sources[username]
 
 # Get a list of tuples containing location replacements in the format (old, new)
-def getLocationReplacements() -> List[Tuple[str,str]]:
+def get_location_replacements() -> List[Tuple[str,str]]:
 	"""Gets a list of location replacement tuples from csv"""
 	replacements = []
 	with open(os.path.join(os.path.dirname(__file__), '../config/location.replacements.csv'), 'r') as infile:

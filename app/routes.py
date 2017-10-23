@@ -1,7 +1,7 @@
 '''Routes and controllers for HTTP server'''
 from bottle import abort, response, route
-from narcal import getUpdatedIcs
-from sources import getCalendarUrl
+from narcal import get_updated_ics
+from sources import get_calendar_url
 import csv
 
 @route('/<username>')
@@ -9,7 +9,7 @@ def getCalendar(username:str):
 	# Check if the username exists in the 'database'
 	calendarUrl = ''
 	try:
-		calendarUrl = getCalendarUrl(username)
+		calendarUrl = get_calendar_url(username)
 	except KeyError:                  # Username not found in dictionary
 		abort(404, "Username not found.")
 	except FileNotFoundError:         # Could not find a file containing sources
@@ -18,7 +18,7 @@ def getCalendar(username:str):
 		abort(500, "Sources configured incorrectly. Contact the site admin for help.")
 	# Return the calendar for that username
 	try:
-		ics = getUpdatedIcs(calendarUrl)
+		ics = get_updated_ics(calendarUrl)
 	except: 
 		abort(500, "Error retrieving data from source. Check that one45 is up and source file is configured correctly.")
 

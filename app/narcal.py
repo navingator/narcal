@@ -3,10 +3,40 @@ from icalendar import Calendar
 from sources import getLocationReplacements
 from typing import List, Tuple
 import requests
+import re
+
+def shortenSummary(summary: str) -> str:
+	"""Shorten the summary by removing unnecessary first element and numbering"""
+	split_summary = summary.split(':')
+
+	# abort if the structure is unknown at this point
+	if len(split_summary) == 1: 
+		return summary
+	
+	# clear the first part, unless it contains the word "optional" as a qualifier
+	if "optional" not in split_summary[0]:
+		split_summary[0] = ''
+	
+	""" 
+	remove the numbering from the description by removing when matching 
+	at least one digit followed by a period and optionally a space 
+	"""
+	split_summary[1] = re.sub(r'^[0-9]+\.\s?', '', split_summary[1])
+
+	# rejoin the summary 
+	new_summary = ':'.join(split_summary)
+	if new_summary[0] == ':': # handle the case when the 0th element was removed
+		new_summary = new_summary[1:]
+
+	return new_summary
 
 def cleanSummary(summary: str) -> str:
-	"""Clean the summary by taking the last piece split by '::'"""
-	return summary.split('::')[-1]
+	"""Cleans the summary by removing unhelpful components"""
+
+	# Remove larger useless chunks by taking the last piece split by '::'
+	new_summary = summary.split('::')[-1] # will include just the last section or everything if it doesn't find '::'
+
+	return shortenSummary(new_summary)
 
 def cleanLocation(location: str, replacements: List[Tuple[str,str]]) -> str:
 	"""Clean the location by removing the building and room specifications and handling replacements

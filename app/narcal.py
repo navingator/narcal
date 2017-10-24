@@ -13,8 +13,8 @@ def shorten_summary(summary: str) -> str:
 	if len(split_summary) == 1: 
 		return summary
 	
-	# clear the first part, unless it contains the word "optional" as a qualifier
-	if "optional" not in split_summary[0]:
+	# clear the first part, unless it contains the word "Optional" as a qualifier
+	if "Optional" not in split_summary[0]: # note case sensitive
 		split_summary[0] = ''
 	
 	""" 
